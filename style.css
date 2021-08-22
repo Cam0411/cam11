@@ -149,9 +149,15 @@
 {
     padding: 10px;
     background: #a1b0fc;
-    width: 32%;
+    width: 26%;
     color: #fff;
     margin-left: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.box:hover 
+{
+    opacity: 0.3;
 }
 #content
 {
@@ -287,6 +293,123 @@
     padding: 10px;
     color: #000;
     background: #fff;
+    transition: 0.4s;
+    text-transform: capitalize;
+}
+.box-2:hover 
+{
+    background: #424d83;
+    color: #fff;
+}
+.sub-box-2:hover 
+{
+    background: #a1b0fc;
+    color: #fff;
+}
+#content-3 
+{
+    height: 900px;
+}
+.content-3-text 
+{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.content-3-all-box 
+{
+    display: flex;
+}
+.content-3-box 
+{
+    width: 25%;
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 340px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+.content-3-box img 
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.heading-box-3 
+{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.heading-3 
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about-6 
+{
+    text-align: center;
+    margin-bottom: 100px;
+    line-height: 25px; 
+}
+.about-box-3 
+{
+    font-size: 15px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #bdbdbd;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+.last-about-3 
+{
+    line-height: 25px;
+}
+#content-4 
+{
+    height: 700px;
+    background: #f1f3ff;
+}
+.content-4-text 
+{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-4-box
+{
+    display: flex;
+}
+.heading-4 
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.content-4-box
+{
+    padding: 5px;
+}
+.content-4-box i 
+{
+    color: #f2ff00;
+    opacity: 0.4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-7 
+{
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+.about-8 
+{
+    line-height: 30px;
+    margin-bottom: 15px;
 }
 @keyframes mymove {
     from{
