@@ -210,6 +210,7 @@
            </ul>
         </div>
     </div>
+   <div class="to-top"><a href="#"> <i class="fas fa-chevron-up"></i>  </a></div>
     <script>
         const menus = document.querySelectorAll(".menu")
         const modal = document.querySelector(".modal")
@@ -231,6 +232,16 @@
              delay: 0, 
              duration: 1000 
            });
+     </script>
+     <script>
+         const toTop = document.querySelector(".to-top")
+         window.addEventListener("scroll",() => {
+             if (window.pageYOffset > 100) {
+                 toTop.classList.add('active')
+             }else {
+                toTop.classList.remove('active')
+             }
+         })
      </script>
 </body>
 </html>
